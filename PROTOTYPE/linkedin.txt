@@ -1,0 +1,4 @@
+Sou formada na área de TI há dois anos e confesso que ainda tenho muitas dificuldades na 
+programação, porém estou buscando me aperfeiçoar. 
+Uma dificuldade que sempre tive foi entender a respeito de métodos, construtores e arrays, dentro do Javascript mais especificamente
+
