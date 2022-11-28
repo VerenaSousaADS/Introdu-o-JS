@@ -30,4 +30,8 @@ let name = new String('Verena')
 name.surName = "Sousa"
 let age = new Number(23)
 console.log(name.surName, age);
+
+let date = new Date('2020-12-01')
+console.log(date._proto_)
+
 */
