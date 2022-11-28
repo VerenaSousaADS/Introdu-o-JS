@@ -35,3 +35,14 @@ let date = new Date('2020-12-01')
 console.log(date._proto_)
 
 */
+
+/* delete
+const person = {
+    name: 'Verena',
+    age: 27,
+}
+delete person.age
+
+console.log(person);
+*/
+
