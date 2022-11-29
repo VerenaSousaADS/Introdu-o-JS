@@ -212,4 +212,42 @@ const canDrive = age >= 18 ? "Can Drive" : "Can't drive"
 console.log(canDrive)
 
 
+
+
+
+    FALSY
+
+	Todos os valores abaixo seriam representados como false em um boolean.
+		false
+    0
+    -0
+    ""
+    null
+    undefined
+    NaN
+
+
+console.log( NaN ? 'verdadeiro' : 'falso' )
+
+
+
+
+    TRUTHY
+
+	Todos os valores abaixo seriam representados como false em um boolean.
+		true
+    {} //nestes casos ele faz a conversão e por isso é apresentado como verdadeiro ou Truthy (confiável)
+    []
+    1
+    3.23
+    "0"
+    "false"
+    -1
+    Infinity
+    -Infinity
+
+
+console.log( 1 ? 'verdadeiro' : 'falso' )
+
+
 */
