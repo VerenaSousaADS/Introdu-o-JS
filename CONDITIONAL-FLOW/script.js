@@ -15,7 +15,7 @@ if(highTemperature){
 
 */
 
-
+/*
 let expression = ''
 
 switch(expression){// puxa a expressão para o switch
@@ -59,4 +59,19 @@ function calculate(number1, operator, number2) {
 }
 
 console.log(calculate(4, '%', 8))
-console.log(calculate(4, '*', 8))
+console.log(calculate(4, '*', 8))*/
+
+
+/*
+    Estrutura de repetição 
+    // FOR
+    // break - para a execução 
+    // continue - pula a execução do momento
+
+
+for (let i = 10; i > 0; i--){
+    if(i === 5){
+        continue;
+    }
+    console.log(i)
+};*/
