@@ -54,3 +54,40 @@ alert("A subtração é " + sub)
 alert("A multiplicação é " + mult)
 alert("A divisão é " + div)
 alert("O resto da divisão é " + restDiv)*/
+
+/*
+  Solicitar o nome do aluno e as 3 notas
+  do bimestre calcular a média daquele aluno.
+
+  A média positiva deverá ser maior que 6
+
+  Se o aluno passou no bimestre, dar os 
+  parabéns.
+
+  Se o aluno não passou no bimestre, 
+  motivar o aluno a dar seu melhor na prova
+  de recuperação.
+
+  Em ambos os casos, mostre uma mensagem com o nome do aluno e a nota
+
+
+
+let nome = prompt("Digite o nome do aluno: ")
+let nota1 =  prompt("Digite a primeira nota: ")
+let nota2 =  prompt("Digite a segunda nota: ")
+let nota3 =  prompt("Digite a terceira nota: ")
+
+nota1 = Number(nota1)
+nota2 = Number(nota2)
+nota3 = Number(nota3)
+
+media =  ((nota1 + nota2 + nota3) / 3)
+
+media = media.toFixed(2)
+
+if(media >= 6){
+  alert(`Parabéns ${nome}! Você passou de ano, sua media foi de ${media}`)
+}else{
+  alert(`${nome} infelizmente você precisa melhorar, ficou de recuperação, sua média foi de ${media}`)
+};
+*/
