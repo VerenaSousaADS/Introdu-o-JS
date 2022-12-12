@@ -228,6 +228,6 @@ while(option != 3){
     default:
       alert("Opção inválida! Tente novamente")
   }
-
+ 
   console.log(option, items)
 };*/
